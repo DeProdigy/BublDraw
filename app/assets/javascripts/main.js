@@ -34,9 +34,6 @@ function addEventListeners(){
   //paints
   //user clicks down
   $(".circles").on('mousedown', function() {
-    //shut off hovers
-    $(".circles").off('mouseover', hoveredOn);
-    $(".circles").off('mouseout', hoveredOff);
     //add that color to the circle that was clicked
     $(this).addClass(window.colorChosen);
     //start painting
@@ -45,7 +42,6 @@ function addEventListeners(){
     $(".circles").mouseup(function() {
       $(".circles").off("mouseover", paintCLicked);
     });
-
   });
 
   //select color
@@ -56,14 +52,17 @@ function addEventListeners(){
 }
 
 function hoveredOn() {
-  $(this).addClass(window.colorChosen);
+  $(this).addClass('hovered-' + window.colorChosen);
 }
 
 function hoveredOff() {
-  $(this).removeClass(window.colorChosen);
+  $(this).removeClass('hovered-' + window.colorChosen);
 }
 
 function paintCLicked() {
+  //remove previous classes to stack more colors on top of each other
+  $(this).removeClass();
+  $(this).addClass('circles');
   $(this).addClass(window.colorChosen);
 }
 
