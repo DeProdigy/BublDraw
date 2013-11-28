@@ -1,0 +1,58 @@
+.cubes {
+  background-color: #ECF0F1;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.hoveredGreen {
+  background-color: #2ECC71;
+  display: inline-block;
+}
+
+.clickedGreen {
+  background-color: #2ECC71;
+  display: inline-block;
+}
+
+.row {
+  margin-top: -2px;
+  margin-bottom: -2px;
+  width: 1000px;
+  margin-right: 0px;
+}
+
+.colors {
+  position: fixed;
+  top: 10%;
+  right: 8%;
+}
+
+.colorPalette {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border-radius: 50%;
+  border: 2px white solid;
+}
+
+
+body {
+  width: 100%;
+}
+
+.canvas {
+  margin: 2%;
+}
+
+
+
+
+/*get rid of pull the objects off the page*/
+body {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
