@@ -1,16 +1,36 @@
-.cubes {
+.circles {
   background-color: #ECF0F1;
   display: inline-block;
   border-radius: 50%;
 }
 
-.hoveredGreen {
+.palette-0 {
+  background-color: #ECF0F1;
+  display: inline-block;
+}
+
+.palette-1 {
   background-color: #2ECC71;
   display: inline-block;
 }
 
-.clickedGreen {
-  background-color: #2ECC71;
+.palette-2 {
+  background-color: #3498DB;
+  display: inline-block;
+}
+
+.palette-3 {
+  background-color: #F1C40F;
+  display: inline-block;
+}
+
+.palette-4 {
+  background-color: #E74C3C;
+  display: inline-block;
+}
+
+.palette-5 {
+  background-color: #2C3E50;
   display: inline-block;
 }
 
@@ -21,13 +41,13 @@
   margin-right: 0px;
 }
 
-.colors {
+.colorPalette {
   position: fixed;
   top: 12%;
   right: 8%;
 }
 
-.colorPalette {
+.colors {
   width: 50px;
   height: 50px;
   background-color: black;
