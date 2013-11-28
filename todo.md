@@ -1,6 +1,6 @@
-welcome controller
+~~welcome controller~~
 
-index
+~~index~~
 
 styles
 
