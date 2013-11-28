@@ -16,8 +16,8 @@ function createcircles(){
     for (var col = 0; col < 50; col++) {
       var $cube = $("<div/>")
         //how big the squares are
-        .css("width", 20)
-        .css("height", 20)
+        .css("width", 19)
+        .css("height", 19)
         .addClass("circles");
       $row.append($cube);
     }
