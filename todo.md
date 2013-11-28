@@ -6,3 +6,9 @@
 
 ~~copy js~~
 
+~~finish multiple colors~~
+
+~~layer colors~~
+
+export png
+
