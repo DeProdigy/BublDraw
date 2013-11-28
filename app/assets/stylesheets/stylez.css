@@ -23,7 +23,7 @@
 
 .colors {
   position: fixed;
-  top: 10%;
+  top: 12%;
   right: 8%;
 }
 
@@ -38,11 +38,17 @@
 
 body {
   width: 100%;
-  font-family: 'Codystar', cursive;
+  font-family: 'Raleway Dots', cursive;
+}
+
+h1 {
+  font-size: 3em;
+  margin-left: 2%;
 }
 
 .canvas {
   margin: 2%;
+  margin-top: -2%;
 }
 
 
