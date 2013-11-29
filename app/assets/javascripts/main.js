@@ -3,6 +3,7 @@ $(document).ready(function() {
   addColorPalette();
   addEventListeners();
   window.colorChosen = "palette-1";
+  mixpanel.track("Main Page Visit");
 });
 
 function createcircles(){
