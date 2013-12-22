@@ -43,13 +43,26 @@ function addEventListeners(){
     $(".circles").mouseup(function() {
       $(".circles").off("mouseover", paintCLicked);
     });
+
   });
+
+  //change the cursor to a paint brush
+  // $(".canvas").on("mouseover", paintBrush);
+  // $(".canvas").on("mouseout", removePaintBrush);
 
   //select color
   $(".colors").on("click", function(){
     var color = this.id;
     window.colorChosen = color;
   });
+}
+
+function paintBrush() {
+  $('body').addClass('paintbrush');
+}
+
+function removePaintBrush() {
+  $('body').removeClass('paintbrush');
 }
 
 function hoveredOn() {

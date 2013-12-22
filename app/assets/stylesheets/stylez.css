@@ -102,7 +102,9 @@ h1 {
   margin-top: -2%;
 }
 
-
+.paintbrush {
+  cursor: url(http://cur.cursors-4u.net/others/oth-2/oth198.cur), progress !important;
+}
 
 
 /*get rid of pull the objects off the page*/
